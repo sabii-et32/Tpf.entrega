@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegir tema</title>
+    <link rel="stylesheet" href="cuestionario.css">
+</head>
+<body>
+
+    <h1 id="saludo">¡Hola!</h1>
+
+    <h2>¿Con qué tema querés empezar hoy?</h2>
+
+    <p>Elegí un tema y poné a prueba lo que sabés.</p>
+
+    <div class="temas">
+
+        <button class="organizacion" onclick="location.href='organizacion.html'">
+   
+            💻
+            <h3>Organización de las computadoras</h3>
+        </button>
+         
+       
+
+        <button class="redes" onclick="location.href='redes.html'">
+            🌐
+            <h3>Redes</h3>
+        </button>
+
+        <button class="arduino" onclick="location.href='arduino.html'">
+            🤖
+            <h3>Arduino</h3>
+        </button>
+
+        <button class="logica" onclick="location.href='logica.html'">
+            🧠
+            <h3>Lógica</h3>
+        </button>
+
+        <button class="pseint" onclick="location.href='Pselnt.html'">
+            📝
+            <h3>PSeInt</h3>
+        </button>
+
+        <button class="matrices" onclick="location.href='matriz.html'">
+            🔢
+            <h3>Matrices</h3>
+        </button>
+
+        <button class="html" onclick="location.href='html.html'">
+            💻
+            <h3>HTML</h3>
+        </button>
+
+        <button class="css" onclick="location.href='css.html'">
+            🎨
+            <h3>CSS</h3>
+        </button>
+
+        <button class="javascript" onclick="location.href='java.html'">
+            ⚡
+            <h3>JavaScript</h3>
+        </button>
+
+    </div>
+
+    <button class="perfil" onclick="location.href='perfil.html'">
+    Mi perfil
+</button>
+
+    <script>
+    let nombre = localStorage.getItem("nombre");
+
+    document.getElementById("saludo").textContent = "¡Hola, " + nombre + "!";
+</script>
+
+
+</body>
+</html>
+

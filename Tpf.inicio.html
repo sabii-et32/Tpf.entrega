@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="tpf.inicio.css">
+</head>
+<body>
+
+    <div class="Nombre">
+        <h1>Iniciar sesión</h1>
+
+        <form onsubmit="guardarDatos(event)">
+
+            <div>
+                <label for="nombre">Ingresa tu nombre y tu apellido 👉🏾</label>
+                <input type="text" id="nombre" name="nombre"
+                placeholder="Ingresa tu nombre aquí" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="escuela">Ingresa tu escuela 👉🏾</label>
+                <input type="text" id="escuela" name="escuela"
+                placeholder="Ingresa tu escuela aquí" required>
+            </div>
+
+            <br>
+
+            <div class="buttondeinicio">
+                <button type="submit">¡Comenzar cuestionario!</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="tpf.inicio.js"></script>
+
+</body>
+</html>

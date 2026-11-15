@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="java.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>¿Cuánto sabes sobre JavaScript ⚡?</h1>
+        <h2>¡Pon a prueba tus conocimientos!</h2>
+    </div>
+
+    <div class="pre1">
+        <p class="pregunta">¿Para qué sirve JavaScript en una página web?</p>
+        <button class="btn" onclick="validarOrg('A', 'B', this)">A) Es para publicar la página.</button>
+        <button class="btn" onclick="validarOrg('B', 'B', this)">B) Es la animación de una página.</button>
+        <br>
+    </div>
+
+    <div class="pre2">
+        <p class="pregunta">¿Qué diferencia hay entre let y const?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Let es modificable y const no.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) let solo sirve para guardar textos y const solo sirve para guardar números enteros.</button>
+        <br>
+    </div>
+
+    <div class="pre3">
+        <p class="pregunta">¿Cuál es la extensión de archivo estándar que se utiliza para guardar un archivo de código fuente de JavaScript?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) .js</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) .java</button>
+        <br>
+    </div>
+
+    <div class="pre4">
+        <p class="pregunta">¿Para qué sirve console.log()?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Para imprimir mensajes de prueba en la consola del navegador.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Para enviarle un correo electrónico de soporte al programador.</button>
+        <br>
+    </div>
+
+    <div class="pre5">
+        <p class="pregunta">¿Qué comando se usa para verificar si una condición se cumple?</p>
+        <button class="btn" onclick="validarOrg('A', 'B', this)">A) Se utiliza el comando check (condición).</button>
+        <button class="btn" onclick="validarOrg('B', 'B', this)">B) Se utiliza el comando if (condición).</button>
+        <br>
+    </div>
+
+    <div class="pre6">
+        <p class="pregunta">¿Cómo se muestra un mensaje de alerta emergente en el navegador?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Se utiliza el comando alert("¡Hola!");</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Se utiliza el comando popup("¡Hola!");</button>
+        <br>
+    </div>
+
+    <div class="pre7">
+        <p class="pregunta">¿Cuál es la diferencia entre utilizar == y === al comparar dos valores en JavaScript?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) El operador == compara solo el valor convirtiendo los tipos de datos si son diferentes, mientras que === compara tanto el valor como el tipo de dato sin convertirlos.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Significan lo mismo.</button>
+        <br>
+    </div>
+
+    <div id="resultado">
+        <p>Correctas: 0</p>
+        <p>Incorrectas: 0</p>
+    </div>
+
+    <a class="back" href="cuestionario.html">← Volver al Inicio</a>
+
+    <script src="java.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de HTML</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>¿Cuánto sabes sobre HTML 💻?</h1>
+        <h2>¡Pon a prueba tus conocimientos!</h2>
+    </div>
+
+    <div class="pre1">
+        <p class="pregunta">¿Qué es HTML?</p>
+        <button class="btn" onclick="validarOrg('A', 'B', this)">A) Es la animación de una página.</button>
+        <button class="btn" onclick="validarOrg('B', 'B', this)">B) Es la estructura de una página.</button>
+    </div>
+
+    <div class="pre2">
+        <p class="pregunta">¿Para qué sirve h1 ?</p>
+        <button class="btn" onclick="validarOrg('A', 'B', this)">A) Se usa para poner una imagen.</button>
+        <button class="btn" onclick="validarOrg('B', 'B', this)">B) Se usa para poner un título principal.</button>
+    </div>
+
+    <div class="pre3">
+        <p class="pregunta">Un documento HTML no necesita una estructura base.</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Falso.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Verdadero.</button>
+    </div>
+
+    <div class="pre4">
+        <p class="pregunta">¿Cuál es la función de p ?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Se usa para escribir un párrafo.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Cambia los colores de la página.</button>
+    </div>
+
+    <div class="pre5">
+        <p class="pregunta">¿Qué símbolo se usa para cerrar una etiqueta HTML?</p>
+        <button class="btn" onclick="validarOrg('A', 'B', this)">A) Un signo de pregunta (?).</button>
+        <button class="btn" onclick="validarOrg('B', 'B', this)">B) Una barra (/).</button>
+    </div>
+
+    <div class="pre6">
+        <p class="pregunta">¿Qué significan las siglas HTML?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) HyperText Markup Language.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) High Text Machine Language.</button>
+    </div>
+
+    <div class="pre7">
+        <p class="pregunta">¿Cómo se vincula un archivo CSS externo a un documento HTML?</p>
+        <button class="btn" onclick="validarOrg('A', 'B', this)">A) Usando la etiqueta script para importar el diseño.</button>
+        <button class="btn" onclick="validarOrg('B', 'B', this)">B) Usando la etiqueta link dentro de head.</button>
+    </div>
+
+    <div id="resultado">
+        <p>Correctas: 0</p>
+        <p>Incorrectas: 0</p>
+    </div>
+
+    <a class="back" href="cuestionario.html">← Volver al Inicio</a>
+
+    <script src="html.js"></script>
+</body>
+</html>
+

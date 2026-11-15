@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Matrices</title>
+    <link rel="stylesheet" href="matriz.css">
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>¿Cuánto sabes sobre Matrices? 🔢</h1>
+        <h2>¡Pon a prueba tus conocimientos!</h2>
+    </div>
+
+    <div class="pre1">
+        <p class="pregunta">¿Qué es una matriz en computación?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Una estructura de datos bidimensional organizada en filas y columnas.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Una estructura de datos organizada únicamente en filas.</button>
+    </div>
+
+    <div class="pre2">
+        <p class="pregunta">En la mayoría de los lenguajes de programación tradicionales, ¿con qué número empieza la primera fila y columna de una matriz?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Con el número 0</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Con el número 1</button>
+    </div>
+
+    <div class="pre3">
+        <p class="pregunta">Cuando escribimos las coordenadas para buscar un dato en una matriz, ¿cuál es el orden estándar que se usa?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Primero se escribe la fila y después la columna.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Primero se escribe la columna y después la fila.</button>
+    </div>
+
+    <div class="pre4">
+        <p class="pregunta">¿Qué ocurre con el tamaño de una matriz estática una vez que el programa empieza a ejecutarse?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Se mantiene fijo y no puede alterarse durante la ejecución.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Cambia completamente.</button>
+    </div>
+
+    <div class="pre5">
+        <p class="pregunta">¿Cuándo se considera que una matriz en computación es cuadrada?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Cuando tiene la misma cantidad de filas que de columnas.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Cuando todos los números que tiene guardados son cero.</button>
+    </div>
+
+    <div class="pre6">
+        <p class="pregunta">¿Cómo se declara una matriz de 3x3 enteros en programación?</p>
+        <button class="btn" onclick="validarOrg('A', 'B', this)">A) 3x3;</button>
+        <button class="btn" onclick="validarOrg('B', 'B', this)">B) [3][3]</button>
+    </div>
+
+    <div class="pre7">
+        <p class="pregunta">¿Qué diferencia hay entre un vector y una matriz?</p>
+        <button class="btn" onclick="validarOrg('A', 'A', this)">A) Un vector usa un índice y una matriz usa dos para encontrar un dato.</button>
+        <button class="btn" onclick="validarOrg('B', 'A', this)">B) Los vectores guardan palabras y las matrices guardan números.</button>
+    </div>
+
+    <div id="resultado">
+        <p>Correctas: 0</p>
+        <p>Incorrectas: 0</p>
+    </div>
+
+    <div class="matriz-secreta">
+        <h2>Ejemplo de Matriz</h2>
+        <h1>Tabla de Multiplicar</h1>
+        <table id="tabla"></table>
+    </div>
+
+    <a class="back" href="cuestionario.html">← Volver al Inicio</a>
+
+    <script src="matriz.js"></script>
+</body>
+</html>

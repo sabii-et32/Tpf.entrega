@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi perfil</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Perfil del Estudiante</h2>
+
+        <hr>
+
+        <p><strong>Nombre y Apellido:</strong> <span id="nombre"></span></p>
+
+        <p><strong>Escuela:</strong> <span id="escuela"></span></p>
+
+        <p><strong>Materia:</strong> Informática / Programación</p>
+
+        <p><strong>Año del Proyecto:</strong> 2026</p>
+
+        <a class="back" href="cuestionario.html">← Volver al Inicio</a>
+    </div>
+
+    <script>
+        let nombre = localStorage.getItem("nombre");
+        let escuela = localStorage.getItem("escuela");
+
+        document.getElementById("nombre").textContent = nombre || "No ingresado";
+        document.getElementById("escuela").textContent = escuela || "No ingresada";
+    </script>
+
+</body>
+</html>

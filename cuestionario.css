@@ -1,0 +1,113 @@
+ body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #e3e3bf, #fff3d6, #ecf193);
+}
+
+h1 {
+    color: #f7809e;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #f4bcd5;
+    font-size: 25px;
+}
+
+p {
+    color: #f4bcd5;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.temas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.temas button {
+    min-height: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 28px;
+    border: 2px solid #e8b6df;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.temas h3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.organizacion {
+    background-color: #fbd2e8;
+    border-color: #f4bcd5;
+}
+.arduino{
+    background-color: #fbd2e8;
+     border-color: #f4bcd5;
+}
+
+.pseint{
+    background-color: #fbd2e8;
+     border-color: #f4bcd5;
+}
+
+.html{
+    background-color: #fbd2e8;
+     border-color: #f4bcd5;
+}
+
+.javascript {
+    background-color: #fbd2e8;
+     border-color: #f4bcd5;
+}
+
+.redes{
+    background-color: #9ab1b5;
+    border-color: #728f90;
+    color: #ffffff;
+}
+.logica{
+    background-color: #9ab1b5;
+    border-color: #728f90;
+     color: #ffffff;
+}
+.matrices{
+    background-color: #9ab1b5;
+    border-color: #728f90;
+     color: #ffffff;
+}
+.css {
+    background-color: #9ab1b5;
+    border-color: #728f90;
+     color: #ffffff;
+}
+
+.temas button:hover {
+    transform: translateY(-5px);
+}
+
+.perfil {
+    margin-top: 25px;
+    padding: 14px 35px;
+    background-color: #d9c6ff;
+    color: #65477d;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.perfil:hover {
+    background-color: #c4ca98;
+    transform: translateY(-3px);
+}
